@@ -35,6 +35,7 @@ q:before, q:after { content:'"'; }
 :focus { outline:0; }
 ::-moz-focus-inner { border-color:transparent; }
 
+/* http://nicolasgallagher.com/micro-clearfix-hack */
 .clearfix:before,
 .clearfix:after { content:""; display:table; }
 .clearfix:after { clear:both; }

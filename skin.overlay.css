@@ -1,0 +1,25 @@
+.mask { z-index:99; background-color:#999999; opacity:0.7; }
+
+.overlay { z-index:10000; }
+.overlay > .tier > .tier { vertical-align:top; padding:36px 0; }
+
+.overlay .pane {
+	text-align:left;
+	background-color:#f1f1f1; 
+	-moz-box-shadow:0 0 12px #333333;
+	-webkit-box-shadow:0 0 12px #333333;
+	box-shadow:0 0 12px #333333;
+}
+
+.overlay .pane > .hd .btn-close { display:block; position:absolute; }
+
+.overlay .button {
+	display:block; float:left; padding:6px; font-size:120%; line-height:1;
+	font-weight:bold; text-transform:uppercase;
+	color:#666666; background-color:#dddddd; border:1px solid #aaaaaa;
+}
+.overlay .button > span { display:block; }
+
+.overlay .controls { overflow:hidden; padding:18px 0; }
+.overlay .controls > .button { margin-left:1em; }
+.overlay .controls > .button:first-child { margin-left:0; }
