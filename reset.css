@@ -35,6 +35,11 @@ q:before, q:after { content:'"'; }
 :focus { outline:0; }
 ::-moz-focus-inner { border-color:transparent; }
 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+
 /* http://nicolasgallagher.com/micro-clearfix-hack */
 .clearfix:before,
 .clearfix:after { content:""; display:table; }
